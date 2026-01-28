@@ -11,7 +11,7 @@
 }
 
 .top{
-    background: red;
+    background: orangered;
     height:10%;
     display: flex;
     flex-direction: row;
