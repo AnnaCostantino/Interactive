@@ -1,3 +1,10 @@
 *{
     margin: 0px;
 }
+
+    .box1{
+        display: inline-block;
+        background: plum;
+        width: 1450px;
+        height: 900px;
+    }
