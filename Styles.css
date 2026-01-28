@@ -8,3 +8,9 @@
         width: 1450px;
         height: 800px;
     }
+    .box2{
+        display: inline-block;
+        background: pink;
+        width: 300px;
+        height: 300px;
+    }
