@@ -13,8 +13,10 @@
 #artist{
     font-size: 20pt;
     font-weight: bold;
+    font-family: 'ABC Diatype'; 
 }
 
 #body{
     font-size: 15pt;
+    font-family: 'ABC Diatype'; 
 }
