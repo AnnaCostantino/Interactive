@@ -7,10 +7,12 @@
 #title{
     font-size: 32pt;
     font-weight: bold;
+    font-family: 'ABC Diatype'; 
 }
 
 #artist{
     font-size: 20pt;
+    font-weight: bold;
 }
 
 #body{
