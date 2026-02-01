@@ -20,3 +20,7 @@
     font-size: 15pt;
     font-family: 'ABC Diatype'; 
 }
+
+.main-box{
+    justify-content: center;
+}
