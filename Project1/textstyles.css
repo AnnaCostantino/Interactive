@@ -1,6 +1,9 @@
-*{
-    ;
+
+@font-face {
+    font-family: 'ABC Diatype';
+    src: url(/typefaces/ABCDiatypeEdu-Regular.otf);
 }
+
 #title{
     font-size: 32pt;
     font-weight: bold;
