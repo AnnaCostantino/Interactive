@@ -1,6 +1,9 @@
 img {
   height: 200px;
   display: inline-block;
+}
+
+.main-box{
   align-items: center;
 }
 
