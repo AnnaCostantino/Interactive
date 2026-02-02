@@ -1,6 +1,7 @@
 img {
   height: 200px;
   display: inline-block;
+  align-items: center;
 }
 
 #img-0 {
