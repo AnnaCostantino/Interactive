@@ -6,8 +6,9 @@
     display: flex;
     background-image: url(images/landscape.jpg);
     background-repeat: no-repeat;
-    width: 1000px;
-    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
     padding: 10px;
 }
 .list{
@@ -26,7 +27,7 @@
     justify-content: center;
     align-items: center;
     background-color: lightpink;
-    height: 75px;
+    height: 55px;
     width: 150px;
     border-radius: 5px;
 }
