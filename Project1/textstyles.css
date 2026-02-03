@@ -27,11 +27,13 @@
     padding: 15px;
 }
 
-.main-box{
-    background-color: lightsteelblue; 
+.main-box2{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
 }
 
-.header{
+.header1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +41,18 @@
     background-color: lightpink; 
 }
 
-.body{
+.body1{
     background-color: honeydew;
+}
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.body2{
+   
 }
