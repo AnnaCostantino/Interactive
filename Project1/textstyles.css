@@ -1,4 +1,6 @@
-
+*{
+    margin: 0px;
+}
 @font-face {
     font-family: 'ABC Diatype';
     src: url(/typefaces/ABCDiatypeEdu-Regular.otf);
@@ -6,22 +8,33 @@
 }
 
 #title{
-    font-size: 32pt;
+    font-size: 36pt;
     font-weight: bold;
     font-family: 'ABC Diatype'; 
+    padding: 20px;
 }
 
 #artist{
-    font-size: 20pt;
+    font-size: 18pt;
     font-weight: bold;
     font-family: 'ABC Diatype'; 
+    padding: 20px;
 }
 
 #body{
     font-size: 15pt;
     font-family: 'ABC Diatype'; 
+    padding: 15px;
 }
 
 .main-box{
     align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink; 
 }
