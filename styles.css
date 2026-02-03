@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+}
+
 #container{
-    background: plum;
+    display: flex;
+    flex-direction: column;
+    background-color: plum;
+    width: 100vw;
+    height: 100vh;
 }
