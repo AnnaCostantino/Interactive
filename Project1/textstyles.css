@@ -28,7 +28,7 @@
 }
 
 .main-box{
-    align-items: center;
+    background-color: lightsteelblue; 
 }
 
 .header{
@@ -37,4 +37,8 @@
     justify-content: center;
     align-items: center;
     background-color: lightpink; 
+}
+
+.body{
+    background-color: honeydew;
 }
