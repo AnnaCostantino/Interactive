@@ -1,0 +1,29 @@
+@keyframes color{
+    0%{
+        background-color: lightgreen; 
+    }
+    50%{
+        background-color: lightcyan;
+    }
+    100%{
+        background-color: lightgreen;
+    }
+}
+body{
+    background-color: lightgreen;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+button{
+    background-color: lightyellow;
+    height: 800px;
+    width: 200px;
+    border: none;
+    opacity: 1;
+    padding: 30px;
+}
+button:hover{
+    background-color: lightyellow;
+    opacity: 0;
+}

@@ -2,28 +2,32 @@
     margin: 0px;
 }
 @font-face {
-    font-family: 'ABC Diatype';
-    src: url(/typefaces/ABCDiatypeEdu-Regular.otf);
+    font-family: "ABC Diatype";
+    src: url("../typefaces/ABCDiatypeEdu-Regular.woff2") format("woff2"),
+         url("../typefaces/ABCDiatypeEdu-Regular.woff") format("woff"),
+         url("../typefaces/ABCDiatypeEdu-Regular.otf") format("opentype");
+    font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 #title{
     font-size: 36pt;
     font-weight: bold;
-    font-family: 'ABC Diatype'; 
+    font-family: "ABC Diatype"; 
     padding: 20px;
 }
 
 #artist{
     font-size: 18pt;
     font-weight: bold;
-    font-family: 'ABC Diatype'; 
+    font-family: "ABC Diatype"; 
     padding: 20px;
 }
 
 #body{
     font-size: 15pt;
-    font-family: 'ABC Diatype'; 
+    font-family: "ABC Diatype"; 
     padding: 15px;
 }
 
@@ -70,12 +74,14 @@
 
 .image3{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
 }
 
 #helpme{
     display: flex;
-    height: 50px;
+    height: 150px;
     width: auto;
 }
