@@ -5,4 +5,35 @@ body{
     height: 300px;
     width: 300px;
     background-color: thistle;
+    border-radius: 300px;
+    animation-name: transform;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: plum;
+    border-radius: 300px;
+    animation-name: transform;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+}
+@keyframes transform{
+    0%{
+        position: absolute;
+        top: 250px;
+        left: 50px;
+    }
+    50%{
+        position: absolute;
+        top: 250px;
+        left: 1100px;
+    }
+    100%{
+        position: absolute;
+        top: 250px;
+        left: 50px;
+    }
 }
