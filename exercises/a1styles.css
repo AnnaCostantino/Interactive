@@ -37,6 +37,7 @@ button{
     font-size: 40px;
     opacity: 1;
     border-radius: 20px;
+    border: none;
     transform: rotate(0deg);
     transform: scale(1,1);
     position: absolute;
@@ -60,6 +61,7 @@ button:hover{
     transition-duration: 500ms;
     opacity: 1;
     border-radius: 20px;
+    border: none;
     transform: rotate(0deg);
     transform: scale(1,1);
     position: absolute;
@@ -81,6 +83,7 @@ button:hover{
     transition-duration: 500ms;
     opacity: 1;
     border-radius: 20px;
+    border: none;
     transform: rotate(0deg);
     transform: scale(1,1);
     position: absolute;
