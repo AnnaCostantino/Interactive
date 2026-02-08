@@ -43,6 +43,7 @@
 .button:hover{
     background-color: hotpink;
     cursor: pointer;
+    transform: scale(1.125,1.125);
 }
 
 #buttontext{
