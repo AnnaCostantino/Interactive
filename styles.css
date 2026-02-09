@@ -53,3 +53,16 @@
     color: darkgreen;
     padding: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .container{
+        background-image: url(images/s1.jpeg);
+    }
+    .button{
+        height: 55px;
+        width: 100px;
+    }
+    #buttontext{
+        font-size: 10pt;
+    }
+}
