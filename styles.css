@@ -50,8 +50,8 @@
     flex-direction: column;
     gap: 20px;
     position:fixed;
-    top:250px;
-    left: 100px;
+    top: 380px;
+    left: 55px;
 }
 
 .squirrels1{
@@ -70,8 +70,35 @@
     gap: 20px;
 }
 
-#l1{
-    
+#l1:hover{
+    transform: rotate(10deg);
+}
+#l2:hover{
+    transform: rotate(-10deg);
+}
+#l3:hover{
+    transform: rotate(10deg);
+}
+#l4:hover{
+    transform: rotate(-10deg);
+}
+#l5:hover{
+    transform: rotate(10deg);
+}
+#l6:hover{
+    transform: rotate(-10deg);
+}
+#l7:hover{
+    transform: rotate(10deg);
+}
+#l8:hover{
+    transform: rotate(-10deg);
+}
+#l9:hover{
+    transform: rotate(10deg);
+}
+#l10:hover{
+    transform: rotate(-10deg);
 }
 
 .list{
