@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "ABC Diatype";
+    src: url("./typefaces/ABCDiatypeEdu-Regular.woff2") format("woff2"),
+         url("./typefaces/ABCDiatypeEdu-Regular.woff") format("woff"),
+         url("./typefaces/ABCDiatypeEdu-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin-top: 30px;
+}
+h1 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 36px;
+    background-color: blanchedalmond;
+    gap: 40px;
+}
+
+h2 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 28px;
+    background-color: burlywood;
+    gap: 40px;
+}
+
+.article {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 16px;
+    background-color: lightyellow;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    h1 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 34px;
+    background-color: hotpink;
+    gap: 30px;
+}
+
+h2 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 26px;
+    background-color: pink;
+    gap: 30px;
+}
+
+.article {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 14px;
+    background-color: lightpink;
+    gap: 30px;
+}
+}
+
+@media screen and (max-width: 768px){
+h1 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 32px;
+    background-color: darkblue;
+    gap: 20px;
+}
+
+h2 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 24px;
+    background-color: blue;
+    gap: 20px;
+}
+
+.article {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 12px;
+    background-color: lightblue;
+    gap: 20px;
+}
+}
+
+@media screen and (max-width: 600px){
+h1 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 30px;
+    background-color: darkgreen;
+    gap: 10px;
+}
+
+h2 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 22px;
+    background-color: green;
+    gap: 10px;
+}
+
+.article {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 10px;
+    background-color: lightgreen;
+    gap: 10px;
+}
+}
+
+@media screen and (max-width: 480px){
+h1 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 28px;
+    background-color: darkmagenta;
+    gap: 0px;
+}
+
+h2 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 20px;
+    background-color: magenta;
+    gap: 0px;
+}
+
+.article {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 10px;
+    background-color: plum;
+    gap: 0px;
+}
+}
+
+@media screen and (max-width: 320px){
+h1 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 26px;
+    background-color: darkred;
+    gap: 0px;
+}
+
+h2 {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 18px;
+    background-color: red;
+    gap: 0px;
+}
+
+.article {
+    font-family: "ABC Diatype", sans-serif;
+    font-size: 10px;
+    background-color: lightcoral;
+    gap: 0px;
+}
+}
