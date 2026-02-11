@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyl Record Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <div class="clock">
+            <!-- Wooden frame background -->
+            <div class="wooden-frame">
+                <!-- Clock numbers -->
+                <div class="number" style="--i:1"><span>1</span></div>
+                <div class="number" style="--i:2"><span>2</span></div>
+                <div class="number" style="--i:3"><span>3</span></div>
+                <div class="number" style="--i:4"><span>4</span></div>
+                <div class="number" style="--i:5"><span>5</span></div>
+                <div class="number" style="--i:6"><span>6</span></div>
+                <div class="number" style="--i:7"><span>7</span></div>
+                <div class="number" style="--i:8"><span>8</span></div>
+                <div class="number" style="--i:9"><span>9</span></div>
+                <div class="number" style="--i:10"><span>10</span></div>
+                <div class="number" style="--i:11"><span>11</span></div>
+                <div class="number" style="--i:12"><span>12</span></div>
+            </div>
+            
+            <!-- Vinyl record center -->
+            <div class="vinyl-center">
+                <div class="vinyl-label">
+                    <svg class="curved-text-svg" viewBox="0 0 160 160">
+                        <defs>
+                            <path id="curve" d="M 35,60 A 45,45 0 0,1 125,60" />
+                        </defs>
+                        <text class="curved-text">
+                            <textPath href="#curve" startOffset="50%" text-anchor="middle">
+                                Joan Baez
+                            </textPath>
+                        </text>
+                    </svg>
+                    <div class="label-title">Using Her Voice</div>
+                    <div class="label-list">
+                        <div>2 Inspiration from Civil Rights Era</div>
+                        <div>3 Using Her Voice</div>
+                        <div>4 Navigating Publicity</div>
+                        <div>5 Facing Backlash</div>
+                        <div>6 Change and Light</div>
+                        <div>7 Enduring Impact</div>
+                    </div>
+                </div>
+                <div class="vinyl-grooves"></div>
+            </div>
+            
+            <!-- Clock hands -->
+            <div class="hand hour-hand" id="hour"></div>
+            <div class="hand minute-hand" id="minute"></div>
+            <div class="hand second-hand" id="second"></div>
+            
+            <!-- Center dot -->
+            <div class="center-dot"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
