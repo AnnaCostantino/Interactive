@@ -21,6 +21,7 @@
     font-weight: bold;
     font-family: "ABC Diatype"; 
     padding: 20px;
+    color: lavenderblush;
 }
 
 #artist{
@@ -28,6 +29,7 @@
     font-weight: bold;
     font-family: "ABC Diatype"; 
     padding: 15px;
+    color: lavenderblush;
 }
 
 #body{
@@ -35,13 +37,14 @@
     font-family: "ABC Diatype"; 
     padding: 15px;
     width: 100%;
+    color: hotpink;
 }
 
 .main-box2{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: beige;
+    background-color: hotpink;
     position: absolute;
     width: 100%;
 }
@@ -51,11 +54,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightpink; 
+    background-color: hotpink; 
 }
 
 .body1{
-    background-color: honeydew;
+    background-color: lavenderblush;
 }
 
 .header2{
@@ -63,7 +66,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: lightpink;
+    background-color: hotpink;
     position: sticky;
     top: 0;
     height: 100vh;
@@ -73,6 +76,7 @@
 .body2{
     display: flex;
     width: 65%;
+    background-color: lavenderblush;
 }
 
 .header3{
@@ -80,7 +84,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightpink;
+    background-color: hotpink;
     width: 100%;
     position: sticky;
     top: 0;
@@ -90,7 +94,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: azure;
+    background-color: lavenderblush;
     width: 100%;
     min-height: 80vh;
     gap: 20px;
@@ -129,7 +133,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightpink;
+    background-color: hotpink;
     width: 100%;
 }
 
@@ -137,6 +141,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: lavenderblush;
 }
 
 #tiktok{
