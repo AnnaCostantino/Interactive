@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: "ABC Diatype";
 }
 @font-face {
     font-family: "ABC Diatype";
@@ -149,6 +150,7 @@
 #tiktok{
     margin-top: 20px;
 }
+
 .header5{
     display: flex;
     flex-direction: column;
@@ -160,11 +162,36 @@
 
 .body5{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    padding-bottom: 20px;
+}
+
+.left5{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: lavenderblush;
-    height: 100vh;
+    width: 50%;
+}
+
+.right5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    width: 50%;
+}
+
+#righttext5{
+    font-size: 15pt;
+    font-family: "ABC Diatype"; 
+    padding: 15px;
+    color: hotpink;
 }
 
 .header6{
@@ -178,14 +205,57 @@
 
 .body6{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    height: 80vh;
+}
+
+.left6{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: lavenderblush;
-    height: 100vh;
+    width: 50%;
+}
+
+.right6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lavenderblush;
+    width: 50%;
+    gap: 50px;
+    margin: 20px;
 }
 
 #sinan{
-    width: 300px;
+    width: 400px;
     height: auto;
+}
+#sinantext{
+    font-size: 15pt;
+    font-family: "ABC Diatype"; 
+    color: hotpink;
+}
+
+#link6{
+    font-size: 15pt;
+    font-family: "ABC Diatype"; 
+    color: lavenderblush;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#link6:hover{
+    cursor: pointer;
+    transform: scale(1.125,1.125);
 }
