@@ -141,24 +141,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: lavenderblush;
-}
-#body4{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: lavenderblush;
     gap: 20px;
 }
 
 #tiktok{
+    margin-top: 20px;
+}
+.header5{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 200px;
+    align-items: center;
+    background-color: hotpink;
+    width: 100%;
+}
+
+.body5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    height: 100vh;
 }
 
 .header6{
