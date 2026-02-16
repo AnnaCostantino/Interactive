@@ -209,7 +209,6 @@
     justify-content: center;
     align-items: center;
     background-color: lavenderblush;
-    height: 80vh;
 }
 
 .left6{
@@ -219,6 +218,7 @@
     align-items: center;
     background-color: lavenderblush;
     width: 50%;
+    margin: 20px;
 }
 
 .right6{
@@ -229,13 +229,29 @@
     background-color: lavenderblush;
     width: 50%;
     gap: 50px;
-    margin: 20px;
+    margin: 50px;
 }
 
 #sinan{
     width: 400px;
     height: auto;
 }
+
+#sinancaption{
+    font-size: 12pt;
+    font-family: "ABC Diatype"; 
+    color: lavenderblush;
+    background-color: hotpink;
+    width: 375px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #sinantext{
     font-size: 15pt;
     font-family: "ABC Diatype"; 
@@ -245,17 +261,23 @@
 #link6{
     font-size: 15pt;
     font-family: "ABC Diatype"; 
-    color: lavenderblush;
-    background-color: hotpink;
+    color: hotpink;
+    background-color: lavenderblush;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 75px;
     width: 300px;
     border-radius: 20px;
+    border-color: hotpink;
+    border-width: 3px;
+    border-style: solid;
 }
 
 #link6:hover{
     cursor: pointer;
     transform: scale(1.125,1.125);
+    background-color: hotpink;
+    color: lavenderblush;
+    border-color: rgb(230,95,162);
 }
