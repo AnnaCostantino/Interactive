@@ -160,3 +160,26 @@
     position: absolute;
     left: 200px;
 }
+
+.header6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    width: 100%;
+}
+
+.body6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    height: 100vh;
+}
+
+#sinan{
+    width: 300px;
+    height: auto;
+}
