@@ -242,10 +242,9 @@
     font-family: "ABC Diatype"; 
     color: lavenderblush;
     background-color: hotpink;
-    width: 375px;
+    width: 400px;
     height: 50px;
-    border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,6 +298,16 @@
     background-color: lavenderblush;
     gap: 20px;
     height: 80vh;
+}
+
+#link7{
+    height: 500px;
+    width: auto;
+}
+#link7:hover{
+    transform: scale(1.01,1.01);
+    cursor: pointer;
+    border: 3px solid hotpink;
 }
 
 .header8{
