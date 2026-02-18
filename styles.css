@@ -12,6 +12,19 @@
     font-style: normal;
     font-display: swap;
 }
+
+@keyframes wiggle {
+     0%{
+        transform: rotate(-7deg);
+    }
+    50%{
+        transform: rotate(7deg);
+    }
+    100%{
+        transform: rotate(-7deg);
+    }
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -36,6 +49,9 @@
     border-width: 3px;
     border-color: hotpink;
     border-style: solid;
+    animation-name: wiggle;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 .readme:hover{
