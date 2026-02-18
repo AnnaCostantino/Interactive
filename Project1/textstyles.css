@@ -150,13 +150,6 @@ audio {
     height: 54px;
 }
 
-/* Make media scale down on small screens */
-img, video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
 .footer3{
     display: flex;
     flex-direction: column;
@@ -302,8 +295,7 @@ img, video {
 }
 
 #sinan{
-    max-width: 400px;
-    width: 100%;
+    width: 400px;
     height: auto;
 }
 
@@ -312,8 +304,7 @@ img, video {
     font-family: "ABC Diatype"; 
     color: lavenderblush;
     background-color: hotpink;
-    max-width: 400px;
-    width: 100%;
+    width: 400px;
     height: 50px;
     margin-top: 10px;
     display: flex;
@@ -338,7 +329,6 @@ img, video {
     align-items: center;
     height: 75px;
     width: 300px;
-    max-width: 90%;
     border-radius: 20px;
     border-color: hotpink;
     border-width: 3px;
@@ -382,8 +372,8 @@ img, video {
 }
 
 #link7{
-    width: 100%;
-    height: auto;
+    height: 500px;
+    width: auto;
 }
 #link7:hover{
     transform: scale(1.01,1.01);
@@ -465,32 +455,4 @@ img, video {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-/* Responsive layout adjustments */
-@media (max-width: 900px) {
-    .body5, .body4, .body6, .body3, .body7, .body9, .main-box2, .main-box9, .body2 {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-    .left5, .right5, .left6, .right6, .image3, .text3 {
-        width: 100%;
-        padding: 10px;
-    }
-    .header2, .header9 {
-        position: static;
-        width: 100%;
-        height: auto;
-    }
-    .body7 { height: auto; }
-    #body7, #body, #righttext5 { width: 100%; }
-    #link5, #link6 { width: 300px; max-width: 90%; }
-    #tiktok, #tiktok2, #tiktok3, #tiktok4, #tiktok5, #tiktok6 { width: 100%; height: auto; }
-}
-
-@media (max-width: 480px) {
-    #title{ font-size: 24pt; }
-    #artist, #body, #righttext5, #sinantext { font-size: 12pt; }
-    .readme { left: 10px; top: 10px; }
 }
