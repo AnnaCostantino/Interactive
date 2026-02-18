@@ -231,6 +231,30 @@ audio {
     color: hotpink;
 }
 
+#link5{
+    font-size: 15pt;
+    font-family: "ABC Diatype"; 
+    color: hotpink;
+    background-color: lavenderblush;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+    border-color: hotpink;
+    border-width: 3px;
+    border-style: solid;
+}
+#link5:hover{
+    cursor: pointer;
+    transform: scale(1.125,1.125);
+    background-color: hotpink;
+    color: lavenderblush;
+    border-color: rgb(230,95,162);
+}
+
 .header6{
     display: flex;
     flex-direction: column;
