@@ -3,6 +3,13 @@
     font-family: "ABC Diatype";
 }
 
+/* Responsive media defaults */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 @font-face {
     font-family: "ABC Diatype";
     src: url("./typefaces/ABCDiatypeEdu-Regular.woff2") format("woff2"),
@@ -15,20 +22,20 @@
 
 @keyframes wiggle {
      0%{
-        transform: rotate(-7deg);
+        transform: rotate(-6deg);
     }
     50%{
-        transform: rotate(7deg);
+        transform: rotate(6deg);
     }
     100%{
-        transform: rotate(-7deg);
+        transform: rotate(-6deg);
     }
 }
 
 .container{
     display: flex;
     flex-direction: row;
-    background-image: url(images/s1.jpeg);
+    background-image: url(images/s1_2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -42,6 +49,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 35px;
+    left: 25px;
     background-color: lavenderblush;
     height: 100px;
     width: 300px;
@@ -50,7 +60,7 @@
     border-color: hotpink;
     border-style: solid;
     animation-name: wiggle;
-    animation-duration: 1.5s;
+    animation-duration: 1.25s;
     animation-iteration-count: infinite;
 }
 
@@ -163,6 +173,7 @@
 @media screen and (max-width: 600px) {
     .container{
         background-image: url(images/s1.jpeg);
+        flex-direction: column;
     }
 
 
