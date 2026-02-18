@@ -295,12 +295,21 @@
 
 .body7{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     background-color: lavenderblush;
     gap: 20px;
     height: 80vh;
+}
+#body7{
+    font-size: 14pt;
+    font-family: "ABC Diatype"; 
+    color: lavenderblush;
+    background-color: hotpink;
+    width: 400px;
+    padding: 15px;
+    margin-left: 20px;
 }
 
 #link7{
