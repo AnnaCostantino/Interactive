@@ -12,6 +12,24 @@
     font-display: swap;
 }
 
+@keyframes wiggle {
+     0%{
+        transform: rotate(-6deg);
+    }
+    50%{
+        transform: rotate(6deg);
+    }
+    100%{
+        transform: rotate(-6deg);
+    }
+}
+
+#acorn{
+    animation-name: wiggle;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+}
+
 .container{
     display: flex;
     flex-direction: column;
