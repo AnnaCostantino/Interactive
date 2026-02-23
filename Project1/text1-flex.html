@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Text1 — Flex Layout Test</title>
+  <style>
+    html, body { height:100%; margin:0; }
+    .container {
+      display:flex;
+      height:100vh;
+      overflow:hidden;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    #giphy {
+      flex: 0 0 320px;
+      box-sizing:border-box;
+      padding:16px;
+      background: #f3f3f6;
+      border-left: 1px solid #e0e0e6;
+      overflow: auto; /* allow internal scroll if giphy is taller than viewport */
+    }
+    #giphy img { max-width:100%; height:auto; display:block; margin:0 auto 8px; }
+    #body {
+      flex:1 1 auto;
+      overflow-y:auto;
+      box-sizing:border-box;
+      padding:24px;
+      line-height:1.5;
+    }
+    h1 { margin-top:0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside id="giphy">
+      <a href="../index.html"><img src="../images/AcornButton.png" alt="Home acorn"></a>
+      <p style="font-size:.9rem; margin:0 0 12px;">Pinned sidebar (giphy).</p>
+      <div style="max-height:60vh; overflow:auto;">
+        <!-- Example embedded gif or iframe (optional) -->
+        <img src="../images/AcornFavicon.png" alt="Example image" />
+        <p style="font-size:.85rem; color:#555">Add your GIPHY iframe or gif here. The main content will scroll independently.</p>
+      </div>
+    </aside>
+
+    <main id="body">
+      <h1>Intro to this Website</h1>
+      <p>Welcome to my website! Here you will find a collection of my favorite projects, experiments, and exercises related to interaction design. Below is filler content to demonstrate the scrollable area.</p>
+
+      <!-- Long content to test scrolling -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+      <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+      <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.</p>
+      <p>Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis.</p>
+      <p>Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa.</p>
+      <p>Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.</p>
+      <p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+      <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</p>
+      <p>Long content repeat to ensure scroll behavior:</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+      <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+      <p>Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+      <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor.</p>
+      <p>End of demo content.</p>
+    </main>
+  </div>
+</body>
+</html>

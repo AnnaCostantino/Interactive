@@ -51,6 +51,14 @@
     color: lavenderblush;
 }
 
+#subtitle{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: "ABC Diatype"; 
+    padding-top: 15px;
+    color: hotpink;
+}
+
 #body{
     font-size: 15pt;
     font-family: "ABC Diatype"; 
@@ -84,6 +92,45 @@
 
 .body1{
     background-color: lavenderblush;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: lavenderblush;
+    width: 100%;
+    min-height: 80vh;
+    gap: 20px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    width: 50%;
+    padding: 20px;
+}
+
+#giphy{
+    display: flex;
+    background-color: lavenderblush;
+    width: 50%;
+    position: sticky;
+    top: 20px;
+    overflow-y: auto;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    width: 100%;
+    height: 40px;
+    font-family: "ABC Diatype";
+    color: lavenderblush;
+    font-size: 12px;
 }
 
 .header2{
