@@ -112,12 +112,17 @@
 }
 
 #giphy{
-    display: flex;
-    background-color: lavenderblush;
-    width: 50%;
-    position: sticky;
+    position: absolute;
     top: 20px;
-    overflow-y: auto;
+}
+
+#link1{
+    padding-top: 20px;
+}
+
+#link1:hover{
+    transform: scale(1.02,1.02);
+    cursor: pointer;
 }
 
 .footer1{
@@ -515,6 +520,9 @@ audio {
 
 .body9{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 65%;
     height: 100vh;
     background-color: lavenderblush;
