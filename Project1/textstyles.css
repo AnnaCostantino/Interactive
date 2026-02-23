@@ -55,6 +55,13 @@
     justify-content: center;
     align-items: center;
     background-color: hotpink; 
+    width: 100%;
+}
+
+#homebutton{
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .body1{
